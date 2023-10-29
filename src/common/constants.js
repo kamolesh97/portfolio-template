@@ -19,7 +19,7 @@ const PROFILE_IMAGE_NAME = 'profile.jpg';
 const DEVELOPER_NAME = 'Kamolesh Mondal';
 const DESIGNATION = 'Full Stack Mobile &\nWeb Developer';
 const INTRO =
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+  "Hello, I am a passionate Full Stack Developer specializing in both mobile and web application development. With 5+ years of hands-on experience, I'm dedicated to creating user-friendly and efficient solutions for businesses and individuals alike.\n\nMy expertise spans the entire development process, from crafting the front-end user interfaces that users love, to designing the robust server-side architecture that keeps everything running smoothly. Whether it's building intuitive mobile apps or crafting responsive web platforms, I thrive on transforming ideas into functional and elegant digital experiences.";
 const INFO = [
   {
     label: 'Years of experience',
