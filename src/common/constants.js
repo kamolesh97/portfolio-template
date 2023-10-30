@@ -22,11 +22,11 @@ const INTRO =
   "Hello, I am a passionate Full Stack Developer specializing in both mobile and web application development. With 5+ years of hands-on experience, I'm dedicated to creating user-friendly and efficient solutions for businesses and individuals alike.\n\nMy expertise spans the entire development process, from crafting the front-end user interfaces that users love, to designing the robust server-side architecture that keeps everything running smoothly. Whether it's building intuitive mobile apps or crafting responsive web platforms, I thrive on transforming ideas into functional and elegant digital experiences.";
 const INFO = [
   {
-    label: 'Years of experience',
+    label: 'Years of\nexperience',
     value: '5+',
   },
   {
-    label: 'Projects completed',
+    label: 'Projects\ncompleted',
     value: '15+',
   },
 ];

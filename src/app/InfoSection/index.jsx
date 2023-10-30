@@ -12,7 +12,7 @@ const InfoSection = ({ className }) => {
         className
       )}
     >
-      <div className="flex h-[90px] bg-gradient-to-r from-gray-900 to-gray-800">
+      <div className="flex h-[90px] justify-evenly bg-gradient-to-r from-gray-900 to-gray-800 md:justify-start">
         {INFO.map((info, index) => (
           <Info {...info} key={index} />
         ))}

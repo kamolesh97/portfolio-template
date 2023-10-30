@@ -7,7 +7,7 @@ import { DEVELOPER_NAME } from '@/common/constants';
 const AnimatedText = () => {
   return (
     <TypeAnimation
-      className="type text-5xl font-semibold text-white"
+      className="type text-4xl font-semibold text-white md:text-5xl"
       cursor={false}
       sequence={[DEVELOPER_NAME]}
       speed={20}
