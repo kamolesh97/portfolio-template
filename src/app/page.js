@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import Link from 'next/link';
 import { IoChevronForwardSharp } from 'react-icons/io5';
 
@@ -19,8 +19,7 @@ const Home = () => (
               alt="profile"
               blurDataURL={`/assets/images/${PROFILE_IMAGE_NAME}`}
               className="object-cover"
-              fill
-              loading="eager"
+              layout="fill"
               placeholder="blur"
               priority
               src={`/assets/images/${PROFILE_IMAGE_NAME}`}
