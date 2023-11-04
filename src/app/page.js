@@ -19,6 +19,8 @@ const Home = () => (
               alt="profile"
               className="object-cover"
               fill
+              placeholder="blur"
+              priority
               src={`/assets/images/${PROFILE_IMAGE_NAME}`}
             />
           </div>
