@@ -17,8 +17,10 @@ const Home = () => (
           <div className="relative -ml-2 -mt-2 h-full w-full">
             <Image
               alt="profile"
+              blurDataURL={`/assets/images/${PROFILE_IMAGE_NAME}`}
               className="object-cover"
               fill
+              loading="eager"
               placeholder="blur"
               priority
               src={`/assets/images/${PROFILE_IMAGE_NAME}`}
