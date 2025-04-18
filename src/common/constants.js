@@ -1,4 +1,5 @@
 const APPS = {
+  YOUTUBE: 'youtube',
   GITHUB: 'github',
   LINKEDIN: 'linkedin',
 };
@@ -16,21 +17,26 @@ const METADATA = {
 
 const RESUME_FILE_NAME = 'Kamolesh_Mondal_Resume.pdf';
 const PROFILE_IMAGE_NAME = 'profile.jpg';
+const AVATAR_IMAGE_NAME = 'avatar.jpeg';
 const DEVELOPER_NAME = 'Kamolesh Mondal';
-const DESIGNATION = 'Full Stack Mobile &\nWeb Developer';
+const DESIGNATION = 'Full Stack Mobile & Web Developer';
 const INTRO =
-  "Hello, I am a passionate Full Stack Developer specializing in both mobile and web application development. With 5+ years of hands-on experience, I'm dedicated to creating user-friendly and efficient solutions for businesses and individuals alike.\n\nMy expertise spans the entire development process, from crafting the front-end user interfaces that users love, to designing the robust server-side architecture that keeps everything running smoothly. Whether it's building intuitive mobile apps or crafting responsive web platforms, I thrive on transforming ideas into functional and elegant digital experiences.";
+  "Hello, I am a passionate Full Stack Developer specializing in both mobile and web application development. With 7+ years of hands-on professional experience, I'm dedicated towards creating user-friendly and efficient solutions for businesses and individuals alike.";
 const INFO = [
   {
     label: 'Years of\nexperience',
-    value: '5+',
+    value: '7+',
   },
   {
     label: 'Projects\ncompleted',
-    value: '15+',
+    value: '20+',
   },
 ];
 const URLS = [
+  {
+    for: APPS.YOUTUBE,
+    url: 'https://www.youtube.com/@TheSedatedDev',
+  },
   {
     for: APPS.GITHUB,
     url: 'https://github.com/kamolesh97',
@@ -55,6 +61,7 @@ const URLS = [
 
 export {
   APPS,
+  AVATAR_IMAGE_NAME,
   CONTACTS,
   DESIGNATION,
   DEVELOPER_NAME,
