@@ -43,7 +43,7 @@ const URLS = [
   },
   {
     for: APPS.LINKEDIN,
-    url: 'https://www.linkedin.com/in/kamoleshmondal/',
+    url: 'https://www.linkedin.com/in/kamolesh-mondal-fullstack-developer/',
   },
   {
     for: CONTACTS.EMAIL,
