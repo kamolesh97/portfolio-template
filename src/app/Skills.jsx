@@ -268,7 +268,7 @@ const Skills = () => {
 
   return (
     <div className="animate-fade-in w-full space-y-10">
-      <p className="whitespace-break-spaces bg-gradient-to-r from-fuchsia-600 to-pink-600 bg-clip-text text-center font-sans text-2xl font-bold text-transparent md:mt-8 md:text-5xl">
+      <p className="whitespace-break-spaces bg-gradient-to-r from-fuchsia-600 to-pink-600 bg-clip-text text-center font-sans text-2xl font-bold text-transparent md:mt-8 md:text-4xl">
         Technical Skills
       </p>
       <div className="grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-6">
