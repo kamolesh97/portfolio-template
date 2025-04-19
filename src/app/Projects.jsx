@@ -53,7 +53,7 @@ const projects = [
 const Projects = () => {
   return (
     <div className="space-y-10 px-6 md:px-0">
-      <p className="whitespace-break-spaces bg-gradient-to-r from-fuchsia-600 to-pink-600 bg-clip-text text-center font-sans text-4xl font-bold text-transparent md:mt-8 md:text-5xl">
+      <p className="whitespace-break-spaces bg-gradient-to-r from-fuchsia-600 to-pink-600 bg-clip-text text-center font-sans text-2xl font-bold text-transparent md:mt-8 md:text-5xl">
         Projects
       </p>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
